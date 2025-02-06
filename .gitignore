@@ -1,0 +1,83 @@
+# Bağımlılıklar
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ortam değişkenleri
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Log dosyaları
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Geçici dosyalar
+tmp/
+temp/
+.tmp
+.temp
+.DS_Store
+
+# Derleme çıktıları
+dist/
+build/
+coverage/
+
+# IDE ve editör dosyaları
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.sublime-workspace
+*.sublime-project
+
+# AWS kimlik bilgileri
+.aws/
+aws.json
+
+# Ses ve medya dosyaları
+uploads/
+public/uploads/
+*.mp3
+*.wav
+*.aac
+*.m4a
+*.ogg
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+
+# Cache dosyaları
+.cache/
+.npm
+.eslintcache
+.stylelintcache
+
+# Test dosyaları
+coverage/
+.nyc_output/
+
+# Redis dump dosyaları
+dump.rdb
+*.rdb
+
+# PM2 dosyaları
+.pm2/
+
+# Diğer
+.DS_Store
+Thumbs.db
+*.pid
+*.seed
+*.pid.lock 
